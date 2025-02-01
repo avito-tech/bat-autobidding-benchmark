@@ -56,9 +56,9 @@ This repository contains the benchmark implementation and supplementary material
 
 ### Installation
 
-1. Clone the repository: git clone https://github.com/avito/your-repo-name.git
-2. Install the required packages: pip install -r requirements.txt
-3. Download data: TODO
+1. Clone the repository: `git clone https://github.com/avito/your-repo-name.git`
+2. Install the required packages: `pip install -r requirements.txt`
+3. Download data: `dvc pull`
 
 ## Contributing
 
