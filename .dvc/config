@@ -1,0 +1,6 @@
+[core]
+    remote = vcg_storage
+['remote "fpa_storage"']
+    url = gdrive://15DRPBBu6NCdSgWAPp1M3eC2j3BiqLkxu
+['remote "vcg_storage"']
+    url = gdrive://1rdS_Z5tm-1_VmIzj5_XZwv1shQFK5SPC

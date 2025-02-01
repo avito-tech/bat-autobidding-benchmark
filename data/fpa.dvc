@@ -1,0 +1,6 @@
+outs:
+- md5: 7e9164e3d37de27191826606e8ab5af4.dir
+  size: 1162221
+  nfiles: 2
+  hash: md5
+  path: fpa

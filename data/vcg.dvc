@@ -1,0 +1,6 @@
+outs:
+- md5: be1231adc2a79252573ca6fbe858e2d5.dir
+  size: 400190
+  nfiles: 2
+  hash: md5
+  path: vcg
