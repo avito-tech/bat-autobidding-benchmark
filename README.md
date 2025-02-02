@@ -21,19 +21,19 @@ This repository contains the benchmark implementation and supplementary material
 .
 ├── 📜 LICENSE
 ├── 📘 README.md
-├── 📊 data/                         # Data for VCG and FPA (to be downloaded with dvc)
+├── 📊 data/                          # Data for VCG and FPA (to be downloaded with dvc)
 │   ├── fpa/
 │   ├── vcg/
-├── 📓 example_notebooks/            # Notebooks with model running examples
-│   ├── baseline_bidders.ipynb       # Guideline: how to make experiments with bidders
-│   ├── bidder_example.ipynb         # Guideline: how to create new bidder class
+├── 📓 example_notebooks/             # Notebooks with model running examples
+│   ├── baseline_bidders.ipynb        # Guideline: how to make experiments with bidders
+│   ├── bidder_example.ipynb          # Guideline: how to create new bidder class
 │   └── 📊 best_params/
 ├── 📋 requirements.txt
-├── 🛠️ simulator/                     # Main simulator code
-│   ├── 💰 model/                     # Bidder models
-│   │   ├── bidder.py                 # Parent class for all bidders
+├── 🛠️ simulator/                      # Main simulator code
+│   ├── 💰 model/                      # Bidder models
+│   │   ├── bidder.py                  # Parent class for all bidders
 │   │   ├── broi_bidder.py           
-│   │   ├── linear_bidder.py          # ALM bidder implementation
+│   │   ├── linear_bidder.py           # ALM bidder implementation
 │   │   ├── m_pid.py                
 │   │   ├── mystique.py               
 │   │   ├── ta_pid.py
@@ -46,7 +46,7 @@ This repository contains the benchmark implementation and supplementary material
 │   └── ✅ validation/                 # Running experiments on all campaigns
 │       ├── check_results.py
 │       └── metrics.py
-└── 📔 useful_notebooks/               # Notebooks with data filtering examples
+└── 📔 useful_notebooks/              # Notebooks with data filtering examples
     ├── filter-fpa.ipynb
     └── filter-vcg.ipynb
 ```
