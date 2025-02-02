@@ -18,40 +18,37 @@ This repository contains the benchmark implementation and supplementary material
 ## Repository Structure
 
 ```
-📁 Project Root
-├── 📊 data/
-│   └── fpa
-│   └── vcg
-│   └── traffic_share.csv
-├── 📓 notebooks/
-│   ├── baseline_bidders.ipynb
-│   ├── bidder_example.ipynb
-│   ├── pictures_rebuttal.ipynb
-│   ├── filter-fpa.ipynb
-│   └── filter-vcg.ipynb
-├── 🛠️ src/
-│   ├── 💰 bidders/
-│   │   ├── bidder.py
-│   │   ├── broi_bidder.py
-│   │   ├── linear_bidder.py
-│   │   ├── m_pid.py
-│   │   ├── mystique.py
-│   │   └── ta_pid.py
-│   ├── 🔄 simulation/
-│   │   ├── modules.py
-│   │   ├── simulate.py
-│   │   └── traffic.py
-│   └── 🔧 utils/
-│       ├── check_results.py
-│       ├── metrics.py
-│       ├── utils.py
-│       └── utils_visualization.py
-├── 📄 .flake8
-├── 📄 .gitattributes
-├── 📄 .gitignore
+.
 ├── 📜 LICENSE
 ├── 📘 README.md
+├── 📊 data/                         # Data for VCG and FPA (to be downloaded with dvc)
+│   ├── fpa/
+│   ├── vcg/
+├── 📓 example_notebooks/            # Notebooks with model running examples
+│   ├── baseline_bidders.ipynb       # Guideline: how to make experiments with bidders
+│   ├── bidder_example.ipynb         # Guideline: how to create new bidder class
+│   └── 📊 best_params/
 ├── 📋 requirements.txt
+├── 🛠️ simulator/                     # Main simulator code
+│   ├── 💰 model/                     # Bidder models
+│   │   ├── bidder.py                 # Parent class for all bidders
+│   │   ├── broi_bidder.py           
+│   │   ├── linear_bidder.py          # ALM bidder implementation
+│   │   ├── m_pid.py                
+│   │   ├── mystique.py               
+│   │   ├── ta_pid.py
+│   │   └── traffic.py
+│   ├── 🔄 simulation/                 # Modules for running simulations
+│   │   ├── modules.py
+│   │   ├── simulate.py
+│   │   ├── utils.py
+│   │   └── utils_visualization.py
+│   └── ✅ validation/                 # Running experiments on all campaigns
+│       ├── check_results.py
+│       └── metrics.py
+└── 📔 useful_notebooks/               # Notebooks with data filtering examples
+    ├── filter-fpa.ipynb
+    └── filter-vcg.ipynb
 ```
 
 ### Installation
