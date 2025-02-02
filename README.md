@@ -66,11 +66,11 @@ We welcome contributions to improve the benchmark. Please feel free to submit is
 
 ## Citation
 
-If you use this benchmark in your research, please cite our paper:
+If you use this benchmark in your research, please cite our paper: *to be updated*
 
 ## License
 
-This project is licensed under [Your chosen license]. See the LICENSE file for details. 
+This project is licensed under MIT License. See the LICENSE file for details. 
 
 ## Contact
 
