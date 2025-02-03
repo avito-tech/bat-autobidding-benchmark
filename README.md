@@ -81,3 +81,5 @@ If you use this benchmark in your research, please cite our paper: *to be update
 
 This project is licensed under MIT License. See the LICENSE file for details. 
 
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.14794182.svg)](http://dx.doi.org/10.5281/zenodo.14794182)
+
