@@ -69,6 +69,3 @@ If you use this benchmark in your research, please cite our paper: *to be update
 
 This project is licensed under MIT License. See the LICENSE file for details. 
 
-## Contact
-
-For any questions or feedback, please contact [Solodneva Ekaterina] at [easolodneva@avito.ru].  ????
