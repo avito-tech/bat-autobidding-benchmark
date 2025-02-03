@@ -7,7 +7,7 @@ kiwisolver==1.4.5
 matplotlib==3.8.2
 numpy==1.26.4
 pandas==2.2.1
-pillow==10.2.0
+pillow==10.3.0
 plotly==5.20.0
 polars==0.20.2
 optuna==3.6.1
