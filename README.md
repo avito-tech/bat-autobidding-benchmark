@@ -57,6 +57,18 @@ This repository contains the benchmark implementation and supplementary material
 2. Install the required packages: `pip install -r requirements.txt`
 3. Download data: `dvc pull`
 
+### Experiment Results
+
+The Sum Click Ratio (SCR) for the proposed models:
+
+| Model      | SCR<sup>VCG</sup> | SCR<sup>FP</sup> |
+|------------|-------------------|------------------|
+| ALM        | 662,466           | 1,085,836        |
+| TA-PID     | 909,282           | 1,478,538        |
+| M-PID      | 889,251           | 1,240,244        |
+| Mystique   | 932,152           | 1,073,291        |
+| BROI       | 495,169           | 1,098,184        |
+
 ## Contributing
 
 We welcome contributions to improve the benchmark. Please feel free to submit issues or pull requests.
