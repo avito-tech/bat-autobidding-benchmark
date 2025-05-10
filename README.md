@@ -2,8 +2,7 @@
 
 ## Overview
 
-This repository contains the benchmark implementation and supplementary materials for our paper "BAT: Benchmark for Auto-bidding Task
-" (paper on [OpenReview](https://openreview.net/forum?id=9eRgajXN2w#discussion)). It provides a comprehensive framework for evaluating and comparing different bidding strategies in online advertising auctions.
+This repository contains the benchmark implementation and supplementary materials for our paper "BAT: Benchmark for Auto-bidding Task" (BAT paper on [OpenReview](https://openreview.net/forum?id=9eRgajXN2w#discussion)). It provides a comprehensive framework for evaluating and comparing different bidding strategies in online advertising auctions.
 
 ## Key Features
 
