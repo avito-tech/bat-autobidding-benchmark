@@ -1,7 +1,9 @@
 # BAT: Benchmark for Auto-bidding Task
+
 ## Overview
 
-This repository contains the benchmark implementation and supplementary materials for our paper "Title" (link). It provides a comprehensive framework for evaluating and comparing different bidding strategies in online advertising auctions.
+This repository contains the benchmark implementation and supplementary materials for our paper "BAT: Benchmark for Auto-bidding Task
+" (paper on [OpenReview](https://openreview.net/forum?id=9eRgajXN2w#discussion)). It provides a comprehensive framework for evaluating and comparing different bidding strategies in online advertising auctions.
 
 ## Key Features
 
@@ -75,7 +77,17 @@ We welcome contributions to improve the benchmark. Please feel free to submit is
 
 ## Citation
 
-If you use this benchmark in your research, please cite our paper: *to be updated*
+If you use this benchmark in your research, please cite our paper: 
+
+```
+@inproceedings{khirianova2025bat,
+  title={BAT: Benchmark for Auto-bidding Task},
+  author={Khirianova, Alexandra and Solodneva, Ekaterina and Pudovikov, Andrey and Osokin, Sergey and Samosvat, Egor and Dorn, Yuriy and Ledovsky, Alexander and Zenkova, Yana},
+  booktitle={Proceedings of the ACM on Web Conference 2025},
+  pages={2657--2667},
+  year={2025}
+}
+```
 
 ## License
 
