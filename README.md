@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the benchmark implementation and supplementary materials for our paper "BAT: Benchmark for Auto-bidding Task" (BAT paper on [OpenReview](https://openreview.net/forum?id=9eRgajXN2w#discussion)). It provides a comprehensive framework for evaluating and comparing different bidding strategies in online advertising auctions.
+This repository contains the benchmark implementation and supplementary materials for our paper "BAT: Benchmark for Auto-bidding Task" (BAT paper on [arXiv](https://arxiv.org/abs/2505.08485)). It provides a comprehensive framework for evaluating and comparing different bidding strategies in online advertising auctions.
 
 ## Key Features
 
@@ -57,6 +57,8 @@ This repository contains the benchmark implementation and supplementary material
 1. Clone the repository: `git clone https://github.com/avito/your-repo-name.git`
 2. Install the required packages: `pip install -r requirements.txt`
 3. Download data: `dvc pull`
+
+If you have trouble with dvc download, you can always download the archive from [zenodo](https://zenodo.org/records/14795981).
 
 ### Experiment Results
 
